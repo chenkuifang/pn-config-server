@@ -1,2 +1,12 @@
 name: pro
-
+spring:
+    #mysql tomcat连接池
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/pn?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true
+    username: root
+    password: root
+  couchbase:
+    env:
+      ssl:
+        enabled: false
