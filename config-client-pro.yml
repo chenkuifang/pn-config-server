@@ -1,4 +1,7 @@
 name: pro
+server:
+  port: 8090
+  
 spring:
     #mysql tomcat连接池
   datasource:
